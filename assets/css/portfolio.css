@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'kanzakibold';
+    src: url('../../Fonts/Kanzaki/kanzaki-bold-webfont.woff2') format('woff2'),
+         url('../../Fonts/Kanzaki/kanzaki-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#plouf {
+    align-items: center;
+    margin-bottom: 300px;
+}
+#header img {
+    margin-top: 0px;
+    margin-bottom: 150px;
+    }
+
+
+#header h1 {
+    font-family: 'kanzakibold';
+}
+
+
+#navbar ul{
+    list-style-type: none;
+}
+.navbar ul li:not(:last-child) {
+    margin-right: 190px;
+    margin-left: 15px
+}
+
+.navbar a {
+    padding: 10px 10px;
+    background: #F4EDE5;
+    border: none;
+    border-radius: 10px;
+    color: #040404;
+    font-family: 'EquitanSans-Regular';
+    font-size: 25px;
+    font-weight: 700px;
+    letter-spacing: 5px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -10px -10px 20px #f4ede567,
+                -10px -10px 20px #f4ede57c,
+                10px 10px 20px #04040434,
+                10px 10px 20px #04040434;
+    font-family: 'EquitanSans-Regular';
+    src: url('../../Fonts/Equitan/zequitansans-regular-webfont.woff2') format('woff2'),
+    url('../../Font/Equitan/zequitansans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .navbar a:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+                -2px -2px 4px rgba(255, 255, 255, .4),
+                2px 2px 2px rgba(255, 255, 255, .05),
+                2px 2px 4px rgba(0, 0, 0, .1);
+  }
+  .navbar a:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+                inset -2px -2px 4px rgba(255, 255, 255, .5),
+                inset 2px 2px 2px rgba(255, 255, 255, .075),
+                inset 2px 2px 4px rgba(0, 0, 0, .15);
+  }
