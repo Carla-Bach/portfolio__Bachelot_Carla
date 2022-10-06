@@ -6,27 +6,46 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'identification05C';
+    src: url('../../Fonts/Identification05C/identification-05c-webfont.woff2') format('woff2'),
+         url('../../Fonts/Identification05C/identification-05c-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mobile-nav-toggle{
+    display: none;
+}
+
+
 #plouf {
     align-items: center;
-    margin-bottom: 300px;
+    margin-bottom: 500px;
 }
-#header img {
-    margin-top: 0px;
-    margin-bottom: 150px;
-    }
-
+#header .container{
+    height: 100vh;
+}
 
 #header h1 {
     font-family: 'kanzakibold';
 }
 
-
 #navbar ul{
     list-style-type: none;
 }
 .navbar ul li:not(:last-child) {
-    margin-right: 190px;
-    margin-left: 15px
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar ul li:not(:last-child) {
+    margin-right: 0;
+    }
+    .navbar ul li  {
+       padding: 15px 0;
+    }
 }
 
 .navbar a {
@@ -35,23 +54,16 @@
     border: none;
     border-radius: 10px;
     color: #040404;
-    font-family: 'EquitanSans-Regular';
-    font-size: 25px;
-    font-weight: 700px;
+    font-size: 20px;
     letter-spacing: 5px;
     text-align: center;
     outline: none;
     cursor: pointer;
-    transition: .2s ease-in-out;
-    box-shadow: -10px -10px 20px #f4ede567,
-                -10px -10px 20px #f4ede57c,
-                10px 10px 20px #04040434,
-                10px 10px 20px #04040434;
+    box-shadow: -10px -5px 10px #f4ede567,
+                -10px -5px 10px #f4ede57c,
+                5px 5px 10px #04040434,
+                5px 5px 10px #04040434;
     font-family: 'EquitanSans-Regular';
-    src: url('../../Fonts/Equitan/zequitansans-regular-webfont.woff2') format('woff2'),
-    url('../../Font/Equitan/zequitansans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
   }
   .navbar a:hover {
     box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
@@ -60,8 +72,9 @@
                 2px 2px 4px rgba(0, 0, 0, .1);
   }
   .navbar a:active {
-    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
-                inset -2px -2px 4px rgba(255, 255, 255, .5),
+    box-shadow: inset -2px -2px 2px rgba(255, 255, 255, .7),
+                inset -2px -2px 2px rgba(255, 255, 255, .5),
                 inset 2px 2px 2px rgba(255, 255, 255, .075),
-                inset 2px 2px 4px rgba(0, 0, 0, .15);
+                inset 2px 2px 2px rgba(0, 0, 0, .15);
   }
+
