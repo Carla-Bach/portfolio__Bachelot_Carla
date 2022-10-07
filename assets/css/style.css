@@ -354,6 +354,10 @@ section .container {
   font-family: "EquitanSans-Regular";
 }
 
+.about-me img {
+  border-radius: 25px;
+}
+
 .about-me .content h3 {
   margin-top: 80px;
   margin-bottom: 30px;
@@ -560,7 +564,7 @@ section .container {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #fff;
+  color: #D44F50;
   background: rgba(255, 255, 255, 0.1);
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
@@ -570,6 +574,7 @@ section .container {
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
   background: #D44F50;
+  color: #F4EDE5;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -816,6 +821,19 @@ section .container {
 
 .contact .info-box .social-links a:hover {
   color: #D44F50;
+}
+
+.contact .info-box .social-links svg {
+  height: 26px;
+  fill: #3C4A4B;
+  display: flex;
+  line-height: 1;
+  margin-right: 12px;
+  transition: 0.3s;
+}
+
+.contact .info-box .social-links svg:hover {
+  fill: #D44F50;
 }
 
 .contact .php-email-form {
