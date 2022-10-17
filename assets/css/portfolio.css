@@ -14,6 +14,22 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'EquitanSans-Light';
+    src: url('../../Fonts/Equitan/equitansans-light-webfont.woff2') format('woff2'),
+         url('../../Fonts/Equitan/equitansans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EquitanSans-Regular';
+    src: url('../../Fonts/Equitan/zequitansans-regular-webfont.woff2') format('woff2'),
+         url('../../Fonts/Equitan/zequitansans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .mobile-nav-toggle{
     display: none;
 }
@@ -71,10 +87,14 @@
                 2px 2px 2px rgba(255, 255, 255, .05),
                 2px 2px 4px rgba(0, 0, 0, .1);
   }
-  .navbar a:active {
+  .navbar a.active {
     box-shadow: inset -2px -2px 2px rgba(255, 255, 255, .7),
                 inset -2px -2px 2px rgba(255, 255, 255, .5),
                 inset 2px 2px 2px rgba(255, 255, 255, .075),
                 inset 2px 2px 2px rgba(0, 0, 0, .15);
   }
 
+
+.gslide-description a{
+    color: #040404;
+}
